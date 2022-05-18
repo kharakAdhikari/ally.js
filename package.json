@@ -80,8 +80,7 @@
     "lint:md": "node build/markdownlint.js $(glob-cli '{*.md,docs/**/*.md}')",
     "lint:md:js": "eslint --ext md $(glob-cli 'docs/**/*.md')",
     "ci": "npm-run-all --sequential lint clean build test:browserstack publish:lcov build:website analyze:bundle",
-    "lint-staged": "lint-staged",
-    "prepare": "npm run build"
+    "lint-staged": "lint-staged"
   },
   "pre-commit": "lint-staged",
   "lint-staged": {
