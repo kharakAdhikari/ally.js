@@ -81,7 +81,7 @@
     "lint:md:js": "eslint --ext md $(glob-cli 'docs/**/*.md')",
     "ci": "npm-run-all --sequential lint clean build test:browserstack publish:lcov build:website analyze:bundle",
     "lint-staged": "lint-staged",
-    "postinstall": "cd ./node_modules/ally.js && npm install && npm run build"
+    "prepare": "npm run build"
   },
   "pre-commit": "lint-staged",
   "lint-staged": {
