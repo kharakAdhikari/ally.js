@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../src/supports/media/mp3.js"],"names":["gif"],"mappings":";;;;;;AAEA;;;;;;kBACeA,a;AAFf","file":"mp3.js","sourcesContent":["\r\n// export default 'data:audio/mp3;base64,audio-focus-test';\r\nimport gif from './gif';\r\nexport default gif;\r\n"]}
