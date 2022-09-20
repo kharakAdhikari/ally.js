@@ -1,4 +1,4 @@
-(function (global, factory) {
+(/* istanbul ignore next */ function (global, factory) {
   if (typeof define === "function" && define.amd) {
     define(['module', 'exports', './pointer-focus-children', './pointer-focus-input', './pointer-focus-parent'], factory);
   } else if (typeof exports !== "undefined") {

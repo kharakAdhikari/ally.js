@@ -1,4 +1,4 @@
-(function (global, factory) {
+(/* istanbul ignore next */ function (global, factory) {
   if (typeof define === "function" && define.amd) {
     define(['module', 'exports', '../get/focus-target', '../util/decorate-context', '../util/element-matches', '../util/platform'], factory);
   } else if (typeof exports !== "undefined") {

@@ -1,4 +1,4 @@
-(function (global, factory) {
+(/* istanbul ignore next */ function (global, factory) {
   if (typeof define === "function" && define.amd) {
     define(['module', 'exports', './visible', '../util/context-to-element', '../util/get-frame-element', '../util/tabindex-value', '../util/platform'], factory);
   } else if (typeof exports !== "undefined") {

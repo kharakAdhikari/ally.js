@@ -1,4 +1,4 @@
-(function (global, factory) {
+(/* istanbul ignore next */ function (global, factory) {
   if (typeof define === "function" && define.amd) {
     define(['module', 'exports', '../get/active-elements', '../util/decorate-service'], factory);
   } else if (typeof exports !== "undefined") {

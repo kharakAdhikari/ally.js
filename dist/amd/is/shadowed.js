@@ -1,4 +1,4 @@
-(function (global, factory) {
+(/* istanbul ignore next */ function (global, factory) {
   if (typeof define === "function" && define.amd) {
     define(['module', 'exports', '../util/context-to-element', '../get/shadow-host'], factory);
   } else if (typeof exports !== "undefined") {

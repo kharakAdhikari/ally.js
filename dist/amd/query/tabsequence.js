@@ -1,4 +1,4 @@
-(function (global, factory) {
+(/* istanbul ignore next */ function (global, factory) {
   if (typeof define === "function" && define.amd) {
     define(['module', 'exports', './tabbable', '../util/node-array', '../util/platform', './tabsequence.sort-area', './tabsequence.sort-shadowed', './tabsequence.sort-tabindex', '../supports/supports'], factory);
   } else if (typeof exports !== "undefined") {

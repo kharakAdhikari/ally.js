@@ -1,4 +1,4 @@
-(function (global, factory) {
+(/* istanbul ignore next */ function (global, factory) {
   if (typeof define === "function" && define.amd) {
     define(['module', 'exports', '../util/node-array', '../get/insignificant-branches', '../get/parents', '../util/toggle-attribute-value', '../util/compare-position'], factory);
   } else if (typeof exports !== "undefined") {

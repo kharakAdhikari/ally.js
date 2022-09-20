@@ -1,4 +1,4 @@
-(function (global, factory) {
+(/* istanbul ignore next */ function (global, factory) {
   if (typeof define === "function" && define.amd) {
     define(['module', 'exports', '../get/shadow-host', '../util/merge-dom-order', '../util/tabindex-value'], factory);
   } else if (typeof exports !== "undefined") {

@@ -1,4 +1,4 @@
-(function (global, factory) {
+(/* istanbul ignore next */ function (global, factory) {
   if (typeof define === "function" && define.amd) {
     define(['module', 'exports', '../is/active-element', '../query/tabsequence', '../when/key'], factory);
   } else if (typeof exports !== "undefined") {

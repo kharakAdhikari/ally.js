@@ -1,4 +1,4 @@
-(function (global, factory) {
+(/* istanbul ignore next */ function (global, factory) {
   if (typeof define === "function" && define.amd) {
     define(['module', 'exports', '../util/array-find-index', './tabbable', '../is/focusable', '../util/node-array'], factory);
   } else if (typeof exports !== "undefined") {

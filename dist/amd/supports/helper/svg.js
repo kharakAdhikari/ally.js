@@ -1,4 +1,4 @@
-(function (global, factory) {
+(/* istanbul ignore next */ function (global, factory) {
   if (typeof define === "function" && define.amd) {
     define(['exports', '../../element/focus.svg-foreign-object-hack'], factory);
   } else if (typeof exports !== "undefined") {

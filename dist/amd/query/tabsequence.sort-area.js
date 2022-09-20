@@ -1,4 +1,4 @@
-(function (global, factory) {
+(/* istanbul ignore next */ function (global, factory) {
   if (typeof define === "function" && define.amd) {
     define(['module', 'exports', './tabbable', '../util/merge-dom-order', '../util/get-document', '../util/image-map'], factory);
   } else if (typeof exports !== "undefined") {
